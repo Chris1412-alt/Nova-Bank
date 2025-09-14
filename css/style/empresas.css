@@ -1,0 +1,211 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: rgba(255, 255, 255, 0.377);
+  color: black;
+  line-height: 1.6;
+}
+
+/* Navbar específica para páginas internas */
+.nav-dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #008b2e;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.nav-dashboard .container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.logo-link img {
+  height: 40px;
+}
+
+.logo-link:hover span {
+  color: #ffd700; /* pequeño efecto al pasar el ratón */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffd700;
+}
+
+/* Wrapper de la página de empresas */
+.empresas-page main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Sección introductoria */
+.about-alliances h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #eb6c05;
+  text-align: center;
+}
+
+.about-alliances p {
+  text-align: justify;        /* justifica el texto */
+  text-justify: inter-word;    /* optimiza el espaciado entre palabras */
+  hyphens: auto;               /* guionado automático en español */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Sección de socios/empresas */
+.partners-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #eb6c05;
+  text-align: center;
+}
+
+/* Grid de tarjetas: apilar verticalmente */
+.partners-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* una sola columna */
+  row-gap: 1.5rem;            /* espacio entre cada tarjeta */
+  margin-top: 1.5rem;
+}
+
+/* Tarjeta de empresa (tamaño aumentado) */
+.partner-card {
+  background-color: #68cf8b;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: flex-start;
+  padding: 2rem;            /* más espacio interior */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-height: 200px;        /* altura mínima mayor */
+}
+
+/* Hover más suave y marcado */
+.partner-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Logo dentro de la tarjeta (más grande) */
+.partner-logo {
+  width: 100px;              /* aumentamos tamaño */
+  height: 100px;
+  object-fit: contain;
+  margin-right: 1.5rem;     /* más separación del texto */
+}
+
+/* Información de la empresa */
+.partner-info {
+  flex: 1;
+}
+
+.partner-info .partner-name {
+  font-size: 1.4rem;        /* título más grande */
+  margin: 0 0 0.75rem;      /* margen inferior aumentado */
+  color: #eb6c05;
+}
+
+.partner-info .partner-description {
+  font-size: 1.05rem;       /* texto descriptivo más legible */
+  margin: 0;
+  color: #555;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+}
+
+/* Llamada a la acción */
+.cta-partners {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.cta-partners h3 {
+  font-size: 1.5rem;
+  color: #eb6c05;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-dashboard {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .partners-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Footer */
+footer {
+  background-color: #008b2e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}

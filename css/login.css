@@ -1,0 +1,213 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../Css/style/img/fondo.jpg') center/cover no-repeat fixed;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Oculta ambas secciones por defecto */
+#login-section,
+#register-section {
+  display: none;
+}
+
+/* Muestra solo la sección de login */
+.login-wrapper.show-login #login-section {
+  display: block;
+}
+
+/* Muestra solo la sección de registro */
+.login-wrapper.show-register #register-section {
+  display: block;
+}
+
+/* Contenedor de login y registro */
+.login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+/* Cada sección (login o registro) */
+.login-wrapper section {
+  background: #ffffffdd;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 360px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.5rem;
+}
+
+/* Títulos de formulario */
+.login-wrapper h2 {
+  text-align: center;
+  color: #008b2e;
+  margin-bottom: 1.5rem;
+}
+
+/* Grupos de campos */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Password toggle */
+.password-wrapper {
+  position: relative;
+}
+
+#toggle-password {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+/* Mensajes de error */
+#error-message-login,
+#error-message-register {
+  color: #b00020;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  min-height: 1.2rem;
+}
+
+/* Botones */
+#login-button,
+#register-button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #eb6c05;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#login-button:hover,
+#register-button:hover {
+  background-color: #eb6c05;
+}
+
+/* Texto de alternar secciones */
+.toggle-message {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.toggle-message a {
+  color: #008b2e;
+  text-decoration: none;
+  margin-left: 0.25rem;
+}
+
+.toggle-message a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .login-wrapper {
+    padding: 1rem;
+  }
+
+  .login-wrapper section {
+    padding: 1.5rem;
+  }
+}
+/* NAV MINIMAL */
+.nav-minimal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #008b2e;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.nav-minimal .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.nav-minimal .logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+/* Lista de enlaces */
+.nav-minimal .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-minimal .nav-links li {
+  margin: 0;
+}
+
+.nav-minimal .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.nav-minimal .nav-links a:hover {
+  color: white;
+}
+
+/* Para que el contenido no quede oculto bajo el nav */
+body {
+  padding-top: 3.5rem; /* ajusta según la altura de tu nav */
+}
+
+/* Responsive: menú colapsado en móviles */
+@media (max-width: 600px) {
+  .nav-minimal .nav-links {
+    display: none;
+  }
+}

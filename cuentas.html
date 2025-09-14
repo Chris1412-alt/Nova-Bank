@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>NovaBank – Tipos de Cuentas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style/cuentas.css">
+</head>
+<body class="cuentas-page">
+
+  <!-- Navbar reutilizable -->
+  <nav class="nav-dashboard">
+    <div class="container">
+      <a href="index.html" class="logo-link">
+        <img src="assets/img/logo.svg" alt="Logo Banco Nova">
+        <span><h1>Banco Nova</h1></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="cuentas.html">Cuentas</a></li>
+        <li><a href="empresas.html">Empresas</a></li>
+        <li><a href="creditos.html">Créditos</a></li>
+        <li><a href="login.html">Cerrar sesión</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="cuentas-wrapper">
+    
+    <!-- Cuentas para Persona Natural -->
+    <section id="cuentas-natural" class="account-section">
+      <h2>Cuenta Persona Natural</h2>
+      <div class="accounts-grid">
+        
+        <article class="account-card">
+          <img src="assets/cuentas/a.jpg" alt="Ahorro icon" class="account-icon">
+          <div class="account-info">
+            <h3>Ahorros Básica</h3>
+            <p>
+              Cuenta sin cuotas de mantenimiento, ideal para ahorrar con acceso 
+              a retiros en línea y notificaciones en tiempo real.
+            </p>
+            <ul>
+              <li>Sin comisión mensual</li>
+              <li>Retiro en cajeros NovaBank</li>
+              <li>App móvil y web</li>
+            </ul>
+            <a href="apertura.php?tipo=ahorro" class="btn btn-primary">Abrir cuenta</a>
+          </div>
+        </article>
+        
+        <article class="account-card">
+          <img src="assets/cuentas/c.jpg" alt="Corriente icon" class="account-icon">
+          <div class="account-info">
+            <h3>Corriente Plus</h3>
+            <p>
+              Diseñada para pagos recurrentes y débitos automáticos, con línea de 
+              sobregiro y tarjeta ilimitada.
+            </p>
+            <ul>
+              <li>Línea de sobregiro hasta 500 USD</li>
+              <li>Tarjeta de débito internacional</li>
+              <li>Alertas SMS gratuitas</li>
+            </ul>
+            <a href="apertura.php?tipo=corriente" class="btn btn-primary">Abrir cuenta</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Cuentas para Persona Jurídica -->
+    <section id="cuentas-juridica" class="account-section">
+      <h2>Cuenta Persona Jurídica</h2>
+      <div class="accounts-grid">
+        
+        <article class="account-card">
+          <img src="assets/cuentas/online.jpg" alt="Jurídica icon" class="account-icon">
+          <div class="account-info">
+            <h3>Empresarial Básica</h3>
+            <p>
+              Apertura rápida para PYMEs con gestión múltiple de usuarios, reportes 
+              contables y acceso API para integraciones.
+            </p>
+            <ul>
+              <li>Usuarios ilimitados</li>
+              <li>Integración API REST</li>
+              <li>Descarga de estados</li>
+            </ul>
+            <a href="apertura.php?tipo=juridica" class="btn btn-primary">Abrir cuenta</a>
+          </div>
+        </article>
+        
+        <article class="account-card">
+          <img src="Assets/Cuentas/03.jpg" alt="Jurídica avanzada icon" class="account-icon">
+          <div class="account-info">
+            <h3>Empresarial Premium</h3>
+            <p>
+              Solución a medida para grandes empresas, incluye asesoría financiera, 
+              límites de transferencia elevados y soporte prioritario.
+            </p>
+            <ul>
+              <li>Asesor asignado</li>
+              <li>Límites hasta 50.000 USD diarios</li>
+              <li>Soporte 24/7</li>
+            </ul>
+            <a href="apertura.php?tipo=premium" class="btn btn-primary">Abrir cuenta</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Cuentas para Empresas -->
+    <section id="cuentas-empresas" class="account-section">
+      <h2>Cuenta Empresas</h2>
+      <div class="accounts-grid">
+        
+        <article class="account-card">
+          <img src="Assets/Cuentas/Tarjeta.jpg" alt="Empresas icon" class="account-icon">
+          <div class="account-info">
+            <h3>Negocios Nova</h3>
+            <p>
+              Cuenta corporativa con conciliación automática de cobros, facturación 
+              integrada y panel de analíticas.
+            </p>
+            <ul>
+              <li>Conciliación automática</li>
+              <li>Herramientas de facturación</li>
+              <li>Reportes en Excel/CSV</li>
+            </ul>
+            <a href="apertura.php?tipo=negocios" class="btn btn-primary">Abrir cuenta</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Créditos y Préstamos -->
+    <section id="creditos-prestamos" class="account-section">
+      <h2>Créditos y Préstamos</h2>
+      <div class="accounts-grid">
+        
+        <article class="account-card">
+          <img src="Assets/Cuentas/G.jpg" alt="Crédito personal icon" class="account-icon">
+          <div class="account-info">
+            <h3>Crédito Personal</h3>
+            <p>
+              Líneas de crédito hasta 10.000 USD, plazos flexibles y desembolso 
+              en 24 horas.
+            </p>
+            <ul>
+              <li>Tasas desde 12% anual</li>
+              <li>Plazos de 6 a 36 meses</li>
+              <li>Sin comisiones de apertura</li>
+            </ul>
+            <a href="creditos.php?tipo=personal" class="btn btn-primary">Solicitar crédito</a>
+          </div>
+        </article>
+        
+        <article class="account-card">
+          <img src="Assets/Cuentas/Telefono.jpg" alt="Crédito empresas icon" class="account-icon">
+          <div class="account-info">
+            <h3>Crédito Empresarial</h3>
+            <p>
+              Apoyo financiero para capital de trabajo, expansión de activos y 
+              proyectos innovadores.
+            </p>
+            <ul>
+              <li>Tasas desde 9% anual</li>
+              <li>Plazos hasta 60 meses</li>
+              <li>Asesoría personalizada</li>
+            </ul>
+            <a href="creditos.php?tipo=empresarial" class="btn btn-primary">Solicitar crédito</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+<footer>
+    <p>&copy; 2025 Banco Nova. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

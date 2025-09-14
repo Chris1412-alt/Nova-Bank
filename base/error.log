@@ -1,0 +1,157 @@
+[14-Sep-2025 01:49:35 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\Nova-bank\Base\Login.php on line 131
+[14-Sep-2025 01:49:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\Nova-bank\Base\Login.php:131
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Nova-bank\Base\Login.php on line 131
+[14-Sep-2025 01:49:36 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\Nova-bank\Base\Login.php on line 131
+[14-Sep-2025 01:49:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\Nova-bank\Base\Login.php:131
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Nova-bank\Base\Login.php on line 131
+[14-Sep-2025 02:09:46 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 02:09:46 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 02:10:44 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 02:10:44 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 02:10:45 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 02:10:45 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 02:12:47 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 02:12:47 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 02:12:48 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 02:12:48 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 02:16:07 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 02:16:07 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 02:16:07 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 02:16:07 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 02:16:07 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 02:16:07 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 02:20:10 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 02:20:10 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 02:45:02 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 02:45:02 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 02:51:46 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 02:51:46 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 02:51:57 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 02:51:57 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 03:04:43 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 03:04:43 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 03:06:53 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 03:06:53 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 03:17:12 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 03:17:12 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 03:41:18 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 03:41:18 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 03:41:20 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 03:41:20 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 03:51:43 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 03:51:43 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 03:51:49 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 03:51:49 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 03:53:59 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 03:53:59 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 04:37:07 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 04:37:07 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 04:39:07 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 04:39:07 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 06:43:53 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 06:43:53 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 06:46:41 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 06:46:41 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 06:46:48 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 06:46:48 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 06:54:18 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 06:54:18 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:09:30 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 07:09:30 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:15:30 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 07:15:30 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:28:26 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 07:28:26 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:28:26 Europe/Berlin] Login.php recibio RAW JSON: {"username":"Chris1911","firstName":"Christoffer","lastName":"Gomez","documentType":"V","identity":"31096178","phone":"04120356622","email":"Gomez@gmail.com","fechaNacimiento":"2006-01-14","password":"Christo1401","accion":"registrar","g-recaptcha-response":"0cAFcWeA7gLtMUng3heoCUVypyjJIVl_tJdX9ro_Nfx9qzhsWRZ6w0UsKjdfIPIVRjWhblVrMUdc3L0wXEdbBTSC-rqRdm2mTlqQJMaMMKt5vwqvkzAm9n2ES81h-wuzB5zyJAR4uCW4PwEAaNn_OHErlKNGB0KEHWxT0iu2zzqG2yHIV4UZ7gegZifdYLnjyHPa1Tsxk_gTFLPXCD8XtKn4DW0xPD99JHPxLC0FAgHJ9a9tTw9Q59Sz-iVAw9JQ8aqBCtWgjziqWqRB82zbjDLys4SdkLYYoTAaajYFK6BNja72qCnzUYhzdJwPZ-dbwik-Ge4BJfaYfhQpyDxma1TMeEugFaRTG1k6QeQmB-_VwGim5WC_XPRZMT0owNUtdGaIPr76lLZdwg1ynePtnsGBfNhJm-PiHIeV5cYFgFTfLCTSzagOTRaVlsC4yOMrBG_mtxOLko9VJDpTE3ohsOkz1B1VFcuvDW6dl8TGuHUIAPOiy4DK2HfvbYsMMKCfegRVzgfimBSehKaszsgaDmmdtT76n_-QcsexdxI7d_V9YH4wAsF2ghlK94jIdNQH8x_edNLYZyxHHpCmAH8Q7IUOfJM5WTC2x37rne2HM99oPfHhr93yFlpQ1tZZZurfKgqTUaw6Rn6MDYQdLVHUa3zZnD_cQ_kkP0njFU2Wb2ffUR5upSVdzTDvcXmNvQWWMnn9p-KlREXi744MiVP1AiA96OdK5DaZWhkmJrRqtPx6-nmHot9LlR3qkJqRJvhQ3et4s2eM1mCqGi6oxfFM0hm6K1aF08V01JCoTXufjE-sJX9JnsnZjMKpRXlvPORzvP__ODqVBV_egVphiPH3hFiABr_aVFiSTy2xfkh9BYgh6f0qWnZG_9O1eRtm---YR4E09sjA8WVNh0AlNR7nI2xhzoLRED8PisZKxZQebOgzxPM3dkO-4lqZhGjW0R21bx2TWUKXUWXT31MXvMtSdLeBIHhz1_vuHuln5S6paQqlQdm6lRKHB1YEGwbNKbLZc_VAeuG6GyWuBaWEKJ0D-u_lQrLpWex-PyRcKA89PRv2R2bF9tIWsbnghe5NhNx1JXnI7PqAKGmNcNIGCjYf2WLHzIpXNUcacn1T9gByq3idRjMVlGK0V5VxY2P9NRiUlVPFozP7x-UXZ2btbSOPJxpfXgCVkxe00kcb2TM1X5UwxtGXNwzW_8U-3ZLORyfrM4f37FYjpZRtf5X04BE_hgGdzXxLm3f17q3YKUV84cIToNi_LISVSyVNTfoZ8tgc-GAZB4U4G6m8lMZjqPA8gzihWT6LUeAE-mOi-gHJdLx7DnajxQp9L-VEiKGPjvWt8LDEZHP5XbgGfot98_gjQux8a9U_TEMGReP_D4Bqp-CvzLADvzlU5fv2Zklgiozh0ScB8DLlZpcelgE6F24reD3Fy49I5cBqMdCEt6yJ-ig4HcY-yiYe7W8MWKBJ-Z0TTIk0UpABv9JEvHFeva5XbT2Dny-EQotx1MICv8hb2a55GOGT4DnBinufsdLItkiGgHuhPQxBaceTKOenZeDwrN8KbdMJR2z39jJ5nul8Dj2oP9F1LgswMCj_CihUX_pwQndWmyH0wGfT117WQwzpEzZGWvRCYie8Ip5tJrVMujAi9onyHS17lZiiU"}
+[14-Sep-2025 07:28:27 Europe/Berlin] reCAPTCHA Google response: {
+  "success": false,
+  "error-codes": [
+    "invalid-input-response"
+  ]
+}
+[14-Sep-2025 07:28:40 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 07:28:40 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:28:40 Europe/Berlin] Login.php recibio RAW JSON: {"username":"Chris1911","firstName":"Christoffer","lastName":"Gomez","documentType":"V","identity":"31096178","phone":"04120356622","email":"Gomez@gmail.com","fechaNacimiento":"2006-01-14","password":"Christo1401","accion":"registrar","g-recaptcha-response":"0cAFcWeA59w_bb4W1UrK919XuyiM3F2wGaAsX9iaqC_3RtrIuaPPVyYCghAwsByRyR4F2QPxPlSTux09ZtjGuOuc2gMg03Bdka5Xcxw6K9X9Dsjke2TcJeC8FEn8kZ0LGcll5CBUUpPYMI6WgaPafektTstRdzv7BIJYOlO_F6gshVYMApZxlPa8MGWcqyVFsyL-kGqytIh0JoibmIO3oIRawUX6zpOKWSXpjVlntE5Iod6Ag3g1fPRohLzUupEwMc3MlpfHl5eJNHHd4Y2T4wJM4iszaqLKPfXV4bfaAHiDsmf2818xqanvEmJ3T3u-YEZUVAaSnNna1EfpJ3fw3W6nqcfXr3SIXSyE0CeH-LGhlSBsRoGtKgqdz7_jraUNcdr4gaGwwPRxQP7iM0rmrk8yMcbLvrRjEBITC_EKgfRE80HQgQMai_GzIkzgeBuJOhUA_0FWnjHlUV635OE7pPYU4O2Q_vbn_PBgud8htSWiFU1EwybZIc_2F3R70nYk7M2t0hJO3wp6hLoS8kpyf5B_K2yPz7Ckx9dUEaodK_CVDWIA4HLsG1XUWvzJL1vArSf7V1tHTyIhGTC5-6e1EMRlogg6tDvCLTdwmLvn-2CkQDLarZjNb3_ohX330roZqbnUAv4hsGGCTIIkh5V1ob2fEvgbNvxmDDm51xZpj_lVkvazhOM3CRVo2dIk48L8x_vVweK4EM6ywfBbesXp9ZC1rnn22EEpUtqoQ_fm8mjZNS_RscqwizUQcMwn45SOLBFaXoAM4a5LoeppwnvZJOS6jNxd3IQ8wM7SWffc8O7JGeBL2OzYdI4oVN9UmdkwqbyA-o0NigLLjKJQb_GJpfKvE13svZCMF2OvWmN9X0zvsQJ9bgfrmCh1y_2tSf_GEMRjrsR9F19fZwUriL83pGMMdIjt7RZwkfNlEDGneKnGbhbc7ZlljZEc_YnvdIw5MzLdL_WjaHQPmvHK1Xlng_CNUU77jprJG74h-zBzYburUGqNQhvh98k7SLApGDL8ZIAMuKe71LSC3wE1f9zqz3xSIEqxi638xdBx135EI__l4Yda3c0rtAGd0_vq8ZmLnGK6SILOiTbIf5_G3zZeObL2CUDiSOKa3gr1-bAkouAef93avvQOKdjnhG2d2uxa1crtMQAJzDCyuaJZI5kXmoOfku7vnPuFHdnJl12MOFb5Mq-ccLwbbTNMsBO-SIYJZw6kJnbLucVNvIrL20xg8tVlo7KXV9CYSaTLLZ619L_DFb7zXOuThinsTJZW4gftJ8Ft3TENjBr5j9W7HyRKyqrQsTKCCZ9d1LUgSE6OJ-q4YFm2It5xbVRzHJJIrebDU0IRGDErXCH467bbh3qbrSek-9EhhdNVfrzl48nzQlLaHVXSKCbaUpfiIV9LTKobnO9iB_mtaOiHxwemyxI_-iaz-jpaGSQQSJwT-wm199JXQoSKkYWEEu_cUZrjX-k124x9faY7uNTph5VDplx73fZFvfL6IHDZc6LhFltSPb4m24LwcXRW79ZIrhgSi3rBFETVYjybiRMn-Fln1AfvNpLFZBeDw8rvsVB3lsseOrvk_Rr9hpAqf7pOBc9APcc0EuXYFoarEZi3Y-6wEnDoOuQ5msMPHOMxteVcWlHT37z8go1zXZAKoptH4yCuqUGsz-9F2PqavhVWsn"}
+[14-Sep-2025 07:28:41 Europe/Berlin] reCAPTCHA Google response: {
+  "success": false,
+  "error-codes": [
+    "invalid-input-response"
+  ]
+}
+[14-Sep-2025 07:28:56 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 07:28:56 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:28:56 Europe/Berlin] Login.php recibio RAW JSON: {"username":"Chris1911","firstName":"Christoffer","lastName":"Gomez","documentType":"V","identity":"31096178","phone":"04120356622","email":"Gomez@gmail.com","fechaNacimiento":"2006-01-14","password":"Christo1401","accion":"registrar","g-recaptcha-response":"0cAFcWeA7DHUiObQmLeTZ84zYaHQ2JRXhm24vNCyOk1VfwzdSu_Y8HsldojSt2XVGP2-NG6T8zBVkpIirQ-TgRKrVb5-nx_tC6wbWCxZtuUW5cUe7ubo4KjQKeygaFj_1RGq6mSNTD9Xj4H10v1Sh7NEo3_ZkKq-BIT9qVkXcMhWUTNe6KstvQOkdWzMgMr9EknG5L6wA6c7Ol6Fve3rq8KSVKAG2JJ8s-BLd9cFxGdqUM9CMMwG4ZYCxJ9F_y1YBRkbvg_6Jiz2qny_8OC0pONmq7IFMkGGaFoxauPX5pH1zKGQdhWz02TwH38C30HirFxqprvaD6lYWB_NeqmXkHivs7ezY-CrhqqQfZbklmFfT_9Xnz_sYld2HE6FYwvWG3Rhc9ee1afTECXBGP6otdQX_2J5l312rDA1v9a4E1yZNC9nthZzfMemFOdqL3kVgw-AhbvxPaQPEJY2m8WiYI0ZQTFnR5Vn4MxfmAh_KMQoTs47rmIBEJfoBvlVUK5Hlqcyz21vVgOM2G1H25dFOz89UGfWHit4-0NNBeUqeOEITeO8rzI73MEemnGlKP3k8yda7xfRDF1CXKnlHTnoXVjPOP0J62s3108roiTbaOnlz3xbuzYkxPJcto2USxcaSwUhXvQ-A6nRoy1LO-gNvNukaSBBpaURYXvJHWk5N0PfDK-1Zn-HeJ2Wdqmhr8KOPe5LNvf0qY-2D-cDv7l5Sc9w8Nm994YgcYLgI392xh7ddDYw_ae28wJVsIgPGKoIb8KNHDrm8v_ENg1Q3VQ7HdUPENgu2pYJSdjz0obx0HAa7SBcpYDoIkD0gqsg8xN-5Uuo23WyBCO7_SoFd3fZ_Mb3mlaWm6IUCU4R_AFW8Ad4fGKJMgQf3JnNOqdaMjTJVAUioHB_Nc2RS8zWeH-_mMLvRnrfE1gPQxZkMZOsKzWw79pv1aeJ_CNZNscXrbQoMaxKmvfTheGUHsXL0jgT0B8tvdxhj8Zs8ZUJO2aNn4gSY3GfYOtjHAIqdMadRkmJqSAjq3bNeGZ3k6Xz42NzazwQYYCVZAl3jTnenZEWdqYyw1a9aV9JOSd2XdHjHIZbAgqotbU6A9l9mK46Ny9gmmp7L9yEeVMviqpWErUv43fetD5H8fdFxZhv-msIsjDSfgG8sULweSWdlflL4n3-SVK05krmxVLDt2U4C0ocpXFHEBvpz80BjsDvSDPvOqGj9AYPkn1VjO0pEkCh54bH9IdNdGAHc-ZMT35VLUVVsPCq0L-gTBhMDovV4Sw-vBu435SqU7uOjT9r1ElTN48Gy0bflC4tF3WnSpTiIFIzqtvWIS3RkO-eNttoCwPY8ktUQc7PDD3JxzWg4w6S9yk3ZbHZHzgm15JwCTvkeDE-h_YVY97TObAS6VIQuyF-qvKtOP7czwihtsnlegyH56HgLHdxalf1wPPjid74ank5ALWgLveDFGhV_0joZIqeCOX7tXzlA6jTxULD4fPa_NVT_RSB1c1ek7WFAmRhQKHSEhmI7gcYeMgROg7Y1P8EveBWn0O5MtFhKYcBqvwqJ7qIIHt6Qj68IwqLIUxDDUKQjld5dKDlM0uFuXPdc2Fmgq9BtcVTh2edKOMsn7WP1tPkAvuWLMO_HdeJ9C3t22WeWotatigxa3qKNA1_w"}
+[14-Sep-2025 07:28:56 Europe/Berlin] reCAPTCHA Google response: {
+  "success": false,
+  "error-codes": [
+    "invalid-input-response"
+  ]
+}
+[14-Sep-2025 07:30:06 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 07:30:06 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:38:06 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 07:38:06 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:55:35 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 07:55:35 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:55:35 Europe/Berlin] → RAW JSON recibido en Login.php: {"username":"Chris1911","firstName":"Christoffer","lastName":"Noguera","documentType":"V","identity":"31096178","phone":"04120356622","email":"Gomez@gmail.com","fechaNacimiento":"2006-01-14","password":"Christo1401","accion":"registrar","g-recaptcha-response":"0cAFcWeA6K38E1OVA8lbxxiZB1F5GWMD-JG4eX2WMfXOJTWceZbRzm97MgrbKu-uacjp0geRQLu5B2lMGg-jlJK_DqobZ9fTlByuTWzfNC2mAGKo4VhrjZ-FO-Sr0RexcE3LoeM7Riv1IVhtmq_JeUYHgrPTt2UJAin_sDnAY7njHKj_NA-mA-LZcABdLM33R65R0d-6t56IyomX4gc1eY4budYmaCmw3M-cTpsnvz8EBx7H8twXfVA8BMtfAFQiLBcOHFEAREf8MwA6CQRt8uDq7F_3-8VI1BqYbBC2RwlC-vOE81geKHowUw-thDrVXh6o0M3XDWtkKKShDOp8RhZ0ku2zwuFEoVQ3envrzExNVmrqJx3Eak87LvFG054VIZLTWDEVIFrE8J8N4RT2dTpGXEsO-BvRH0AbxCSTICuGxbr3JUSe6Z2p08HCkk6fQiPTet1iV9xnd751G-0W5Q-h76VrLwArrXVbC3e7T8NwWAENF073sqF37uLUmclbaf_gruPbyqD6xDqgHNarCPJ7wWiQuXNeR0x254L4IWxsUAsSs_Zb6C8VGbEzeFSC9kyy-GGlYBaesp1C_36BQqaKAWlIQ2TnOY71zB502DfTwTCx_KHG8eB0PjIBNQCtSaHeiFgSUqN1360cHPI5QWHiORmCRxHWAN_MtR7ZvFmgZGa7t16Wg3WqjNZBknaa2V4JFW18mkf57MT9lAn9oBJhgtVZuK2jxWc5gOchI75pHbHC3RtWDZX_Vt31xjtkxUXz9XQtG_075u_aRd1cEaFD-LutiCkV9ZPE1EoNIHhtZcmIfWLNID75e_ZB6nGByQQZ7YAYQqN5QnTiFxJKKyAgrs2NlnXrBQE0FE7e8Yh8xD6iorPETm0UtgqrwjT6aUW-TEXthP72DdhQ7cUqKAOuPcBXKbXmHyzQA_9UMmZcuws-ZwSyYCtXtCtp9j1wskdJ-E7etP55R3Z5tmWd5vxdE9761c76e6yHooa7JZeL0J2xXTetye4cny8YGY5KjCorPa0L_ICnus9tHWW7su1-ZIJEjEgwCYP1iBPXdqACDFTplWMcDSBunGmHWhWKuhdbdcP5Vs_IxceG_JkjgpVCXWsfb5BXKGjPAQaemzTh_gIjHWUFRBd3WHz2ESgpm8KQlKAvQauL9CH0bMREOUuNaYlZcxlMlprSg8yYB2bkMb_7G7hDAaI9Oac_zTsBAQZ1Jhmr9ekadgl9VztpCOpffsyxAvvtru3b4qXI4Mc6vs7ksL70-8tnwMJOGmPri3zHuJiOFoSetjTYEgAlEMpsPM_PAoWJyL__RRoePDRMWSg6f0_pElfIgFoQxjbyGmcYlHyyCOJWKhhP3qHpMdvxjGqVLyssdaQ-5ev0ZJY17RTwn0EqWqBe0VA4cRqdeO7Kvbc7YiWRFkHysAnLLUm2ULwoLWVYGYug0x9VdIhWFHnF5Q1vTJzscggY2iElP6G7NQ9odxwjT4ACevwPvQ1Uj6Ef9O9gWuxbZU1Le0pK6Z-bmuE9GO3tQqxMp1_4l3UwInsP5iD0qbx66MHNNz-RoggIOrLty_ZVKG39AjOLwjEvKHapUt4bMkEF5OU-ccx1LN43mkyP0cYcP-Pp1OtsDbZiarH5Egk5G4bdJXHun7Hlnahe2D9pA"}
+[14-Sep-2025 07:55:35 Europe/Berlin] → Valor de $accion: “registrar”
+[14-Sep-2025 07:55:36 Europe/Berlin] → reCAPTCHA raw response: {
+  "success": true,
+  "challenge_ts": "2025-09-14T05:54:27Z",
+  "hostname": "localhost"
+}
+[14-Sep-2025 07:55:36 Europe/Berlin] → reCAPTCHA parsed: Array
+(
+    [success] => 1
+    [challenge_ts] => 2025-09-14T05:54:27Z
+    [hostname] => localhost
+)
+
+[14-Sep-2025 07:55:37 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 07:55:37 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:55:37 Europe/Berlin] → RAW JSON recibido en Login.php: {"username":"Chris1911","firstName":"Christoffer","lastName":"Noguera","documentType":"V","identity":"31096178","phone":"04120356622","email":"Gomez@gmail.com","fechaNacimiento":"2006-01-14","password":"Christo1401","accion":"registrar","g-recaptcha-response":"0cAFcWeA6K38E1OVA8lbxxiZB1F5GWMD-JG4eX2WMfXOJTWceZbRzm97MgrbKu-uacjp0geRQLu5B2lMGg-jlJK_DqobZ9fTlByuTWzfNC2mAGKo4VhrjZ-FO-Sr0RexcE3LoeM7Riv1IVhtmq_JeUYHgrPTt2UJAin_sDnAY7njHKj_NA-mA-LZcABdLM33R65R0d-6t56IyomX4gc1eY4budYmaCmw3M-cTpsnvz8EBx7H8twXfVA8BMtfAFQiLBcOHFEAREf8MwA6CQRt8uDq7F_3-8VI1BqYbBC2RwlC-vOE81geKHowUw-thDrVXh6o0M3XDWtkKKShDOp8RhZ0ku2zwuFEoVQ3envrzExNVmrqJx3Eak87LvFG054VIZLTWDEVIFrE8J8N4RT2dTpGXEsO-BvRH0AbxCSTICuGxbr3JUSe6Z2p08HCkk6fQiPTet1iV9xnd751G-0W5Q-h76VrLwArrXVbC3e7T8NwWAENF073sqF37uLUmclbaf_gruPbyqD6xDqgHNarCPJ7wWiQuXNeR0x254L4IWxsUAsSs_Zb6C8VGbEzeFSC9kyy-GGlYBaesp1C_36BQqaKAWlIQ2TnOY71zB502DfTwTCx_KHG8eB0PjIBNQCtSaHeiFgSUqN1360cHPI5QWHiORmCRxHWAN_MtR7ZvFmgZGa7t16Wg3WqjNZBknaa2V4JFW18mkf57MT9lAn9oBJhgtVZuK2jxWc5gOchI75pHbHC3RtWDZX_Vt31xjtkxUXz9XQtG_075u_aRd1cEaFD-LutiCkV9ZPE1EoNIHhtZcmIfWLNID75e_ZB6nGByQQZ7YAYQqN5QnTiFxJKKyAgrs2NlnXrBQE0FE7e8Yh8xD6iorPETm0UtgqrwjT6aUW-TEXthP72DdhQ7cUqKAOuPcBXKbXmHyzQA_9UMmZcuws-ZwSyYCtXtCtp9j1wskdJ-E7etP55R3Z5tmWd5vxdE9761c76e6yHooa7JZeL0J2xXTetye4cny8YGY5KjCorPa0L_ICnus9tHWW7su1-ZIJEjEgwCYP1iBPXdqACDFTplWMcDSBunGmHWhWKuhdbdcP5Vs_IxceG_JkjgpVCXWsfb5BXKGjPAQaemzTh_gIjHWUFRBd3WHz2ESgpm8KQlKAvQauL9CH0bMREOUuNaYlZcxlMlprSg8yYB2bkMb_7G7hDAaI9Oac_zTsBAQZ1Jhmr9ekadgl9VztpCOpffsyxAvvtru3b4qXI4Mc6vs7ksL70-8tnwMJOGmPri3zHuJiOFoSetjTYEgAlEMpsPM_PAoWJyL__RRoePDRMWSg6f0_pElfIgFoQxjbyGmcYlHyyCOJWKhhP3qHpMdvxjGqVLyssdaQ-5ev0ZJY17RTwn0EqWqBe0VA4cRqdeO7Kvbc7YiWRFkHysAnLLUm2ULwoLWVYGYug0x9VdIhWFHnF5Q1vTJzscggY2iElP6G7NQ9odxwjT4ACevwPvQ1Uj6Ef9O9gWuxbZU1Le0pK6Z-bmuE9GO3tQqxMp1_4l3UwInsP5iD0qbx66MHNNz-RoggIOrLty_ZVKG39AjOLwjEvKHapUt4bMkEF5OU-ccx1LN43mkyP0cYcP-Pp1OtsDbZiarH5Egk5G4bdJXHun7Hlnahe2D9pA"}
+[14-Sep-2025 07:55:37 Europe/Berlin] → Valor de $accion: “registrar”
+[14-Sep-2025 07:55:38 Europe/Berlin] → reCAPTCHA raw response: {
+  "success": false,
+  "error-codes": [
+    "timeout-or-duplicate"
+  ]
+}
+[14-Sep-2025 07:55:38 Europe/Berlin] → reCAPTCHA parsed: Array
+(
+    [success] => 
+    [error-codes] => Array
+        (
+            [0] => timeout-or-duplicate
+        )
+
+)
+
+[14-Sep-2025 07:55:59 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 07:55:59 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:55:59 Europe/Berlin] → RAW JSON recibido en Login.php: {"username":"Christo1911","password":"Christo1401","accion":"login"}
+[14-Sep-2025 07:55:59 Europe/Berlin] → Valor de $accion: “login”
+[14-Sep-2025 07:56:04 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 07:56:04 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:56:04 Europe/Berlin] → RAW JSON recibido en Login.php: {"username":"Christo1401","password":"Christo1401","accion":"login"}
+[14-Sep-2025 07:56:04 Europe/Berlin] → Valor de $accion: “login”
+[14-Sep-2025 07:56:29 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 07:56:29 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:56:29 Europe/Berlin] → RAW JSON recibido en Login.php: {"username":"Chris1911","password":"Christo1401","accion":"login"}
+[14-Sep-2025 07:56:29 Europe/Berlin] → Valor de $accion: “login”
+[14-Sep-2025 07:59:18 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 07:59:18 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 07:59:18 Europe/Berlin] → RAW JSON recibido en Login.php: {"username":"Chris1911","password":"Christo1401","accion":"login"}
+[14-Sep-2025 07:59:18 Europe/Berlin] → Valor de $accion: “login”
+[14-Sep-2025 18:07:07 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 18:07:07 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 18:07:07 Europe/Berlin] → RAW JSON recibido en Login.php: {"username":"Chris1911","password":"Christo1401","accion":"login"}
+[14-Sep-2025 18:07:07 Europe/Berlin] → Valor de $accion: “login”
+[14-Sep-2025 18:07:08 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 4
+[14-Sep-2025 18:07:08 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'PDOException' has no effect in C:\xampp\htdocs\Nova-bank\Base\Conexion.php on line 5
+[14-Sep-2025 18:07:08 Europe/Berlin] → RAW JSON recibido en Login.php: {"username":"Chris1911","password":"Christo1401","accion":"login"}
+[14-Sep-2025 18:07:08 Europe/Berlin] → Valor de $accion: “login”

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>BancoNova – Panel de Usuario</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/dashboard/dashboard.css">
+</head>
+<body class="dashboard-page">
+
+  <nav class="nav-dashboard">
+    <div class="container">
+      <a href="index.html" class="logo-link">
+        <img src="assets/img/logo.svg" alt="Logo Banco Nova">
+        <span><h1>Banco Nova</h1></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="transfers.html">Transferencias</a></li>
+        <li><a href="receipts.html">Recibos</a></li>
+        <li><a href="login.html">Cerrar sesión</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="dashboard-wrapper">
+    <section class="card-section">
+      <h2>Tu Tarjeta Digital</h2>
+      <div class="card-container">
+        <div class="card-visual">
+          <div class="card-overlay">
+            <span class="card-user">Christoffer</span>
+            <span class="card-balance">$12.00</span>
+            <span class="card-number">•••• 1234</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="actions-section">
+      <h3>Opciones disponibles</h3>
+      <ul class="action-list">
+        <li><button id="btnMovements">Ver movimientos</button></li>
+        <li><button id="btnTransfer">Realizar transferencia</button></li>
+        <li><button id="btnReceipt">Solicitar recibo</button></li>
+        <li><button id="btnUpdate">Actualizar datos</button></li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="javascript/controller/dashboard.js" defer></script>
+</body>
+</html>

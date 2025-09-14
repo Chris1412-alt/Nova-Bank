@@ -1,0 +1,205 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('img/fondo.jpg') center/cover no-repeat fixed;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar interna */
+.nav-dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #008b2e;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.nav-dashboard .container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.logo img {
+  height: 40px;
+}
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.logo-link img {
+  height: 40px;
+}
+
+.logo-link:hover span {
+  color: #ffd700; /* pequeño efecto al pasar el ratón */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: white;
+}
+
+/* Wrapper de la página de servicios */
+.services-wrapper {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Sección introductoria */
+.services-intro h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #008b2e;
+  text-align: center;
+}
+
+.services-intro p {
+  font-size: 1rem;
+  color: white;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  margin-bottom: 2rem;
+}
+
+/* Sección de servicios destacados */
+.services-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  color: #008b2e;
+  text-align: center;
+}
+
+/* Grid de tarjetas de servicio */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Tarjeta de servicio */
+.service-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Icono dentro de la tarjeta */
+.service-icon {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+/* Información del servicio */
+.service-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+  color: #008b2e;
+}
+
+.service-info p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  line-height: 1.5;
+}
+
+/* Botón de acción */
+.btn-primary {
+  display: inline-block;
+  background-color: #eb6c05;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #d25400;
+}
+
+/* Footer */
+footer {
+  background-color: #008b2e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-dashboard {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+}

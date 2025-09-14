@@ -1,0 +1,174 @@
+/* === Reset básico === */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('img/fondo.png') center/cover no-repeat fixed;
+  color: #333;
+  line-height: 1.6;
+}
+/* === Navegación === */
+.nav-dashboard {
+  background-color: #008b2e;
+  color: white;
+  padding: 1rem 2rem;
+}
+.nav-dashboard .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-dashboard .logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-dashboard .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-dashboard .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-dashboard .nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* === Contenedor principal === */
+.dashboard-wrapper {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* === Tarjeta digital === */
+.card-section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+.card-visual {
+  position: relative;
+  width: 350px;
+  height: 200px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #008b2e, #52c578);
+}
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+}
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1.5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.card-user {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.card-balance {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: auto;
+}
+.card-number {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+
+/* === Acciones disponibles === */
+.actions-section {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: rgba(202, 191, 191, 0.6);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.actions-section h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 600;
+  border-bottom: 2px solid #eb6c05;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.action-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.2rem;
+  padding: 0;
+}
+
+.action-list button {
+  padding: 0.9rem 1.2rem;
+  background: linear-gradient(135deg, #eb6c05, #ff8c42);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.action-list button:hover,
+.action-list button:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+
+.action-list button:active {
+  transform: scale(0.98);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.logo img {
+  height: 40px;
+}
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.logo-link img {
+  height: 40px;
+}

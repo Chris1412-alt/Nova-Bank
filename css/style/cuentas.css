@@ -1,0 +1,232 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('img/fondo.jpg') center/cover no-repeat fixed;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar específica para páginas internas */
+.nav-dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #008b2e;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.nav-dashboard .container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.logo-link img {
+  height: 40px;
+}
+
+.logo-link:hover span {
+  color: #ffd700; /* pequeño efecto al pasar el ratón */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffd700;
+}
+
+/* Wrapper de la página de cuentas */
+.cuentas-page main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Sección de cada tipo de cuenta */
+.account-section {
+  margin-bottom: 3rem;
+}
+
+.account-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #eb6c05;
+  text-align: center;
+}
+
+/* Grid de tarjetas de cuenta */
+.accounts-grid {
+  display: grid;
+  /* columnas de ancho fijo para evitar estiramientos */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+  justify-content: center;  /* centra el conjunto de columnas */
+  gap: 1rem;                /* menos separación entre tarjetas */
+  max-width: 920px;         /* ancho máximo del grid */
+  margin: 0 auto;           /* lo centra en la página */
+}
+
+/* Opcional: uniformiza el ancho de cada tarjeta */
+.account-card {
+  max-width: 300px;
+  width: 100%;
+}
+
+/* Tarjeta de cuenta */
+.account-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.account-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Icono de la cuenta */
+.account-icon {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 1.5rem;
+  image-orientation: center;
+}
+
+/* Información de la cuenta */
+.account-info {
+  width: 100%;
+  flex: 1;
+}
+
+.account-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+  color: #eb6c05;
+}
+
+.account-info p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #555;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  line-height: 1.5;
+}
+
+/* Lista de beneficios */
+.account-info ul {
+  list-style: none;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.account-info ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.account-info ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #008b2e;
+  font-weight: bold;
+}
+
+/* Botones de acción */
+.btn-primary {
+  display: inline-block;
+  background-color: #eb6c05;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #d25400;
+}
+
+/* Footer */
+footer {
+  background-color: #008b2e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-dashboard {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .accounts-grid {
+    grid-template-columns: 1fr;
+  }
+}

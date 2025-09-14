@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ayuda | Nova Bank</title>
+  <link rel="stylesheet" href="css/style/help.css">
+</head>
+<body>
+<header>
+  <a href="index.html" class="logo">
+    <img src="assets/img/logo.svg" alt="Nova Bank">
+    <h1>Nova Bank</h1>
+  </a>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="help.html" class="active">Ayuda</a></li>
+      <li><a href="terms.html">Términos</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+    <section id="support-section" class="support-section">
+      <h2>Soporte y Reporte de Errores</h2>
+      <form id="support-form" class="support-form" novalidate>
+        <div class="form-group">
+          <label for="support-type">Tipo de Solicitud</label>
+          <select id="support-type" name="supportType" required>
+            <option value="">Selecciona...</option>
+            <option value="error">Reportar Error</option>
+            <option value="help">Pedir Ayuda</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="support-subject">Asunto</label>
+          <input
+            type="text"
+            id="support-subject"
+            name="subject"
+            placeholder="Breve descripción"
+            maxlength="100"
+            required
+          >
+        </div>
+        <div class="form-group">
+          <label for="support-description">Descripción Detallada</label>
+          <textarea
+            id="support-description"
+            name="description"
+            rows="5"
+            placeholder="Explica lo que ocurrió"
+            maxlength="1000"
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Enviar Solicitud</button>
+        <p id="support-message" class="form-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <script type="module" src="javascript/auth/support.js"></script>
+</body>
+</html>

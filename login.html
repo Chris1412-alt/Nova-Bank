@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+ <meta http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        connect-src 'self' https://www.google.com https://www.gstatic.com;
+        script-src  'self' https://www.google.com https://www.gstatic.com;
+        style-src   'self' 'unsafe-inline';
+        frame-src   https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/;
+      ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco Nova – Acceso</title>
+
+  <link rel="stylesheet" href="css/style/style.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body class="login-page">
+
+  <nav class="nav-minimal">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="assets/img/logo.svg" alt="Banco Nova">
+        <span class="logo-text"><h1>Banco Nova</h1></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="help.html">Ayuda</a></li>
+        <li><a href="terms.html">Términos</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="login-wrapper show-login">
+    <!-- INICIAR SESIÓN -->
+    <section id="login-section" class="section-login">
+      <form id="login-form" autocomplete="off" novalidate>
+        <h2>Iniciar Sesión</h2>
+
+        <div class="form-group">
+          <label for="login-username">Usuario</label>
+          <input
+            type="text"
+            id="login-username"
+            name="username"
+            required
+            maxlength="12"
+            autocomplete="off"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="password">Contraseña</label>
+          <div class="password-wrapper">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              autocomplete="new-password"
+            >
+            <button
+              type="button"
+              id="toggle-password"
+              aria-label="Mostrar contraseña"
+            >👁️</button>
+          </div>
+        </div>
+
+        <div id="error-message-login" role="alert" aria-live="assertive"></div>
+        <button type="submit" id="login-button">Entrar</button>
+      </form>
+
+      <p class="toggle-message">
+        ¿No tienes cuenta?
+        <a href="#" data-target="register">Regístrate</a>
+      </p>
+    </section>
+
+    <!-- REGISTRO -->
+    <section id="register-section" class="section-register">
+      <form id="register-form" novalidate>
+        <h2>Crear Cuenta</h2>
+
+        <div class="form-group">
+          <label for="register-username">Usuario</label>
+          <input
+            type="text"
+            id="register-username"
+            name="username"
+            required
+            maxlength="12"
+            pattern="[A-Za-z0-9_.]{4,12}"
+            title="4–12 caracteres; letras, números, guiones bajos y puntos."
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="firstName">Nombre</label>
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            required
+            maxlength="30"
+            pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+"
+            title="Solo letras y espacios"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="lastName">Apellido</label>
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            required
+            maxlength="30"
+            pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+"
+            title="Solo letras y espacios"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="documentType">Tipo de documento</label>
+          <select
+            id="documentType"
+            name="documentType"
+            required
+          >
+            <option value="">Selecciona…</option>
+            <option value="V">V</option>
+            <option value="E">E</option>
+            <option value="J">J</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="identity">Cédula o ID</label>
+          <input
+            type="text"
+            id="identity"
+            name="identity"
+            class="numeric-only"
+            required
+            maxlength="9"
+            inputmode="numeric"
+            title="Solo números, máximo 9 dígitos"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="fechaNacimiento">Fecha de Nacimiento</label>
+          <input
+            type="date"
+            id="fechaNacimiento"
+            name="fechaNacimiento"
+            required
+            max=""
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Teléfono</label>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            class="numeric-only"
+            required
+            maxlength="11"
+            inputmode="numeric"
+            title="Solo números, máximo 11 dígitos"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            maxlength="100"
+            autocomplete="off"
+            spellcheck="false"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="reg-password">Contraseña</label>
+          <div class="password-wrapper">
+            <input
+              type="password"
+              id="reg-password"
+              name="password"
+              required
+              autocomplete="new-password"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              title="Min. 8 caracteres, al menos una mayúscula, una minúscula y un número"
+            >
+            <button
+              type="button"
+              id="toggle-reg-password"
+              aria-label="Mostrar contraseña"
+            >👁️</button>
+          </div>
+          <small id="reg-password-error" class="field-error"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="confirm-password">Confirmar Contraseña</label>
+          <div class="password-wrapper">
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              required
+              autocomplete="new-password"
+            >
+          </div>
+        </div>
+
+        <div class="g-recaptcha"
+             data-sitekey="6LfKB8QrAAAAAMRJ6ncCFRWFeP_P-sG6_FHpDoqV">
+        </div>
+
+        <div id="error-message-register" role="alert" aria-live="assertive"></div>
+        <button type="submit" id="register-button">Registrarse</button>
+      </form>
+
+      <p class="toggle-message">
+        ¿Ya tienes cuenta?
+        <a href="#" data-target="login">Inicia sesión</a>
+      </p>
+    </section>
+  </main>
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script type="module" src="javascript/auth/login.js"></script>
+</body>
+</html>

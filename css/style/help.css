@@ -1,0 +1,143 @@
+/* Reset y configuración global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header y disposición del logo + enlaces */
+header {
+  background-color: #008b2e;
+  height: 3rem;             
+  padding: 0 1rem;          /* espacio horizontal */
+  display: flex;
+  align-items: center;      
+  justify-content: space-between; /* logo a la izquierda, nav a la derecha */
+}
+
+/* Logo: imagen reducida y texto en blanco */
+.logo img {
+  max-height: 2rem;     
+  width: auto;
+  display: block;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+
+/* Navegación alineada a la derecha */
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  height: 100%;
+}
+
+/* Enlaces de navegación con padding y fuente reducidos */
+nav .nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.85rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 2px;
+  transition: background-color 0.2s ease;
+}
+
+nav .nav-links li a:hover,
+nav .nav-links li a.active {
+  background-color: #006d2c;
+}
+
+/* Contenido principal */
+main {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Sección de soporte */
+.support-section {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.support-section h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: #008b2e;
+  text-align: center;
+}
+
+/* Formulario */
+.support-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.support-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.support-form input[type="text"],
+.support-form select,
+.support-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.support-form input[type="text"]:focus,
+.support-form select:focus,
+.support-form textarea:focus {
+  border-color: #008b2e;
+  outline: none;
+}
+
+.support-form button[type="submit"] {
+  background-color: #008b2e;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.support-form button[type="submit"]:hover {
+  background-color: #006d2c;
+}
+
+/* Mensajes de feedback */
+.form-message {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.form-message.error {
+  color: #c62828;
+}
+
+.form-message.success {
+  color: #2e7d32;
+}

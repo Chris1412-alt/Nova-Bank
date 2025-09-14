@@ -1,0 +1,129 @@
+/* terms.css — Estilos para terms.html */
+
+/* Reset y configuración global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header y disposición del logo + enlaces */
+header {
+  background-color: #008b2e;
+  height: 3rem;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+
+.logo img {
+  max-height: 2rem;
+  width: auto;
+  display: block;
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  height: 100%;
+}
+
+nav .nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.85rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 2px;
+  transition: background-color 0.2s ease;
+}
+
+nav .nav-links li a:hover,
+nav .nav-links li a.active {
+  background-color: #006d2c;
+}
+
+/* Contenido principal */
+main {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Sección de Términos y Condiciones */
+.terms-section {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.terms-section h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: #008b2e;
+  text-align: center;
+}
+
+.terms-section h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  color: #008b2e;
+}
+
+.terms-section p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.terms-section a {
+  color: #008b2e;
+  text-decoration: underline;
+}
+
+.terms-section a:hover {
+  color: #006d2c;
+  text-decoration: none;
+}
+
+/* Adaptaciones responsive */
+@media (max-width: 600px) {
+  .terms-section {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .terms-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .terms-section h3 {
+    font-size: 1.1rem;
+  }
+
+  .terms-section p {
+    font-size: 0.95rem;
+  }
+}
