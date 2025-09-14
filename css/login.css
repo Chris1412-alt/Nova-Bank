@@ -11,7 +11,7 @@ body {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('../Css/style/img/fondo.jpg') center/cover no-repeat fixed;
+    url('style/img/fondo.jpg') center/cover no-repeat fixed;
   color: #333;
   line-height: 1.6;
 }
@@ -170,12 +170,19 @@ body {
   justify-content: space-between;
 }
 
-/* Logo */
-.nav-minimal .logo {
-  font-size: 1.25rem;
-  font-weight: 700;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
   color: white;
-  text-decoration: none;
+}
+
+.logo img {
+  max-height: 2rem;
+  width: auto;
+  display: block;
 }
 
 /* Lista de enlaces */
